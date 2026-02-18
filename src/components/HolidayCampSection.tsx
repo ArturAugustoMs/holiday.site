@@ -16,7 +16,7 @@ const VideoSection = () => {
   return (
     <div className="video-container">
       <iframe
-        src="https://www.youtube.com/embed/SEU_ID_AQUI"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
         title="Vídeo Holiday"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
