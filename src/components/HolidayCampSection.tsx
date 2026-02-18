@@ -12,6 +12,22 @@ const campImages = [
   { src: campImg3, alt: "Holiday Camp - artes" },
 ];
 
+const VideoSection = () => {
+  return (
+    <div className="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/SEU_ID_AQUI"
+        title="Vídeo Holiday"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
+  );
+};
+
+export default VideoSection;
+
+
 const benefits = [
   { icon: Star, text: "Atividades exclusivas e temáticas" },
   { icon: Users, text: "Equipe especializada em recreação" },
