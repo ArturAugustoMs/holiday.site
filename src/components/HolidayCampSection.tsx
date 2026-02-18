@@ -12,19 +12,6 @@ const campImages = [
   { src: campImg3, alt: "Holiday Camp - artes" },
 ];
 
-const VideoSection = () => {
-  return (
-    <div className="video-container">
-      <iframe
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-        title="Vídeo Holiday"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      />
-    </div>
-  );
-};
-
 export default VideoSection;
 
 
