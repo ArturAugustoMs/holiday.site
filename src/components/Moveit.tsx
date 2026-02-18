@@ -80,12 +80,12 @@ const HolidayCampSection = () => {
                   Conheça
                 </span>
                 <h2 className="text-4xl md:text-5xl font-heading font-black mt-2">
-                  Holiday <span className="text-primary">Camp</span>
+                  Move <span className="text-primary">It</span>
                 </h2>
               </div>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Nosso Holiday Camp oferece uma experiência completa de lazer e aprendizado. 
+                Nosso Move It oferece uma experiência completa de lazer e aprendizado. 
                 As crianças participam de atividades criativas, esportivas e artísticas 
                 em um ambiente seguro e acolhedor.
               </p>
