@@ -1,4 +1,5 @@
 import { Toaster } from "@/components/ui/toaster";
+import VideoSection from './VideoSection';
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -23,5 +24,18 @@ const App = () => (
     </TooltipProvider>
   </QueryClientProvider>
 );
+
+function Sobre() {
+  return (
+    <div>
+      {/* Outros conteúdos */}
+      <VideoSection />
+      {/* Outros conteúdos */}
+    </div>
+  );
+}
+
+export default Sobre;
+
 
 export default App;
