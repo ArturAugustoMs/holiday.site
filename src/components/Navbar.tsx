@@ -9,11 +9,11 @@ const Navbar = () => {
           <span className="text-xl font-heading font-black text-foreground">Holiday</span>
         </a>
         <div className="hidden md:flex items-center gap-8">
-          <a href="#camp" className="text-muted-foreground hover:text-primary font-semibold transition-colors">
-            Holiday Camp
-          </a>
           <a href="#sobre" className="text-muted-foreground hover:text-primary font-semibold transition-colors">
             Quem Somos
+          </a>
+          <a href="#camp" className="text-muted-foreground hover:text-primary font-semibold transition-colors">
+            Holiday Camp
           </a>
           <a
             href="#contato"
