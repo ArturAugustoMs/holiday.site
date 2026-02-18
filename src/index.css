@@ -103,25 +103,3 @@
 html {
   scroll-behavior: smooth;
 }
-.video-container {
-  max-width: 800px;
-  margin: 40px auto;
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
-
-.video-container {
-  max-width: 900px;
-  margin: 80px auto;
-  border-radius: 24px;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
-}
-
-.video-container:hover {
-  transform: scale(1.02);
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.18);
-}
-
