@@ -31,6 +31,7 @@ const HeroSection = () => {
   }, [emblaApi, onSelect]);
 
   return (
+    <section id="birthday" className="py-24 md:py-32 bg-muted/50">
     <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-primary/10 via-background to-secondary/10">
       <div className="absolute top-20 right-10 w-72 h-72 rounded-full bg-accent/20 blur-3xl" />
       <div className="absolute bottom-20 left-10 w-96 h-96 rounded-full bg-secondary/15 blur-3xl" />
