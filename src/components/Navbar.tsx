@@ -12,7 +12,7 @@ const Navbar = () => {
           <a href="#sobre" className="text-muted-foreground hover:text-primary font-semibold transition-colors">
             Quem Somos
           </a>
-          <a href="#hero" className="text-muted-foreground hover:text-primary font-semibold transition-colors">
+          <a href="#birthday" className="text-muted-foreground hover:text-primary font-semibold transition-colors">
             Holiday Birthday
           </a>
           <a href="#camp" className="text-muted-foreground hover:text-primary font-semibold transition-colors">
