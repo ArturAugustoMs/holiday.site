@@ -4,6 +4,7 @@ import AboutSection from "@/components/AboutSection";
 import HolidayCampSection from "@/components/HolidayCampSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import Moveit from "@/components/Moveit";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <HolidayCampSection />
+      <Moveit/>
       <ContactSection />
       <Footer />
     </div>
