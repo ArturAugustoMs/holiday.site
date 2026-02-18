@@ -7,9 +7,9 @@ import campImg3 from "@/assets/holiday-camp-3.jpg";
 import { Star, Users, Sun, Music } from "lucide-react";
 
 const campImages = [
-  { src: campImg1, alt: "Holiday Camp - atividades" },
-  { src: campImg2, alt: "Holiday Camp - ao ar livre" },
-  { src: campImg3, alt: "Holiday Camp - artes" },
+  { src: campImg1, alt: "Move It - atividades" },
+  { src: campImg2, alt: "Move It - ao ar livre" },
+  { src: campImg3, alt: "Move It Camp - artes" },
 ];
 
 const benefits = [
@@ -38,7 +38,7 @@ const HolidayCampSection = () => {
   }, [emblaApi, onSelect]);
 
   return (
-    <section id="camp" className="py-24 md:py-32 bg-muted/50">
+    <section id="move" className="py-24 md:py-32 bg-muted/50">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <AnimatedSection>
