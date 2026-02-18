@@ -80,7 +80,7 @@ const HolidayCampSection = () => {
                   Conheça
                 </span>
                 <h2 className="text-4xl md:text-5xl font-heading font-black mt-2">
-                  Move <span className="text-primary">It</span>
+                  <span className="text-primary">Move</span> It
                 </h2>
               </div>
 
