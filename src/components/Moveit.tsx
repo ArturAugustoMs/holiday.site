@@ -36,16 +36,6 @@ const HolidayCampSection = () => {
     const autoplay = setInterval(() => emblaApi.scrollNext(), 5000);
     return () => clearInterval(autoplay);
   }, [emblaApi, onSelect]);
-  
-  <video
-    autoPlay
-    muted
-    loop
-    playsInline
-    className="w-full h-full object-cover"
-  >
-  <source src="/video.mp4" type="video/mp4" />
-</video>
 
 
   return (
