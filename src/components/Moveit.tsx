@@ -36,10 +36,16 @@ const HolidayCampSection = () => {
     const autoplay = setInterval(() => emblaApi.scrollNext(), 5000);
     return () => clearInterval(autoplay);
   }, [emblaApi, onSelect]);
-
-  <video autoplay muted loop playsinline>
-    <source src="/Rockstar É Insana Assim.mp4" type="video/mp4" />
-  </video>
+  
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="w-full h-full object-cover"
+  >
+  <source src="/video.mp4" type="video/mp4" />
+</video>
 
 
   return (
