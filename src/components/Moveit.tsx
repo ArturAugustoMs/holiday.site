@@ -37,6 +37,11 @@ const HolidayCampSection = () => {
     return () => clearInterval(autoplay);
   }, [emblaApi, onSelect]);
 
+  <video autoplay muted loop playsinline>
+    <source src="/Rockstar É Insana Assim.mp4" type="video/mp4" />
+  </video>
+
+
   return (
     <section id="move" className="py-24 md:py-32 bg-muted/50">
       <div className="container mx-auto px-6">
